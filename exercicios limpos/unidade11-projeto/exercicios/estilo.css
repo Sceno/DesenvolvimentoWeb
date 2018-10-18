@@ -1,0 +1,17 @@
+header{
+    margin: 0px
+}
+nav{
+    margin: 0px;
+    background-color: chocolate;
+}
+
+nav li{
+    margin-top: 0px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+}
