@@ -1,23 +1,27 @@
 body{
     border: 1px solid #ddd;
+    width: 955px;
+    height: 1500px;
 }
 img{
     margin: 0px;
+    float: left;
 }
 nav{
     background-color: #5D240A;
     font-family: Arial;
     font-size: 12px;
-    width: 955px;
-    margin-top: -5px;
-    padding: 3px
+    width: 949px;
+    margin-top: 95px;
+    padding: 3px;
+    margin-bottom: 32px;
 }
 nav ul{
     padding-bottom: 6px;
     padding-top: 6px;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: -35px;
+    margin-left: -42px;
 }
 nav ul li{
     display: inline-block;
@@ -31,21 +35,76 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+main{
+    float: left;
+    width: 600px;
+    margin-left: 20px;
+}
 h1{
     color: #C63;
-    margin-left: 25px;
+    
     font-family: Georgia;
     font-style: italic;
     font-weight: bold;
-    font-size: 40px;
-    letter-spacing: -1px;
-    margin-bottom: 0px
+    font-size: 43px;
+    letter-spacing: -1.5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
-h3{
-    color: ##ccc;
-    margin-left: 25px;
+h2{
+    color: #C63;
+    font-family: Georgia;
     font-style: italic;
     font-weight: bold;
+}
+h3{
+    color: #ccc;
+    font-family: Arial;
     letter-spacing: -1px;
     margin-top: 0px;
+}
+figure{
+    margin: 15px;
+    float: left;
+}
+p, li {
+    text-align: justify;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    color:#555; 
+    line-height:1.8;  
+}
+p{
+    text-indent: 25px; /* Primeira linha do parágrafo afastada da margem */
+}
+
+section h2{
+    margin-top: 40px;
+}
+aside{
+    float: left;
+    color: #999;
+    width: 250px;
+    margin-right: 20px;
+    border-bottom: 1px solid #C63;
+    border-top: 1px solid #C63;
+    margin-top: 10px;
+}
+aside p{
+    margin-top: 0px;
+    text-align: left;
+    text-indent: 0px;
+    margin-left: 15px;
+    color: #999;
+}
+aside img{
+    float: none;
+}
+div{
+    float: left;
+    margin-left: 30px;
+}
+div h2{
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
